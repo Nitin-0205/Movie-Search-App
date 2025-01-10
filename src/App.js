@@ -19,7 +19,7 @@ function App() {
 
   const getmoviedata =()=>{
 
-    let url =  `https://www.omdbapi.com/?t=${title} &apikey=ad679b1a`;
+    let url =  `https://www.omdbapi.com/?t=${title} &apikey=585fc9d4`;
 
     fetch(url)
     .then((response)=> response.json())
